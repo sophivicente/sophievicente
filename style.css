@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to bottom right, #e0f0ff, #ffffff, #ffeacc);
+    color: #333;
+    text-align: center;
+    padding: 2rem;
+}
+h1 {
+    color: #7DA6DE;
+}
+h2 {
+    color: #E2725B;
+}
+.schedule, .rsvp {
+    margin-top: 2rem;
+}
+input, textarea, button {
+    display: block;
+    width: 80%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
+button {
+    background-color: #E2725B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.lang-switch {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
